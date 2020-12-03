@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+
+
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+
+@font-face {
+  font-family: "GT SetraBold";
+  font-weight: 700;
+    src:url('GT-Sectra-Fine-Trial-Bold.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "GT SetraMedium";
+  font-weight: 400;
+src:url('GT-Sectra-Fine-Trial-Medium.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "GT SetraRegular";
+  font-weight: 400;
+src:url('GT-Sectra-Fine-Trial-Regular.otf') format("opentype");
+}
+
+@font-face{
+    font-family: "GothamBook";
+    font-weight: 500;
+    src:url('GothamBook.ttf') format("truetype");
+}
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	
+    overflow-y: auto !important;
+    
+}
+
+
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+
+#box1{
+    width: 100vw;
+    top:0;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: 0;
+    position:absolute;
+ overflow-y: auto !important;
+}
+
+#boxcontent1{
+    margin-top:0;
+   top:0;
+   margin-left:23.3%;
+    margin-right:1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    transform: translate3d(var(--move-initial), 0, 0);
+   
+    
+  
+}
+
+#references p{
+    
+    margin-bottom:15px;
+}
+
+
+
+h1{
+    
+    font-size: 65px;
+    margin-bottom: 20px;
+    margin-top:0.7em;
+    line-height: 40px;
+    
+}
+
+h2{
+    font-size:40px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    line-height: 43px;
+}
+
+h3{
+    font-size:25px;
+    margin-bottom:40px;
+    line-height: 28px;
+}
+
+
+
+img{
+    max-width:100%;
+    max-height:100%;
+    padding:1em;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#img2{
+    align-content: center;
+}
+  
+  
+
+
+
+
